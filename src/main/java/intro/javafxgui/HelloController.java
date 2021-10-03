@@ -16,7 +16,7 @@ public class HelloController {
     }
     @FXML
     protected void onAddButtonClick() {
-        welcomeText.setText("You click add");
+        welcomeText.setText("You click Addition");
         double first = Double.parseDouble(number1.getText());
         double second = Double.parseDouble(number2.getText());
         double result = first + second;
@@ -24,6 +24,10 @@ public class HelloController {
     }
     @FXML
     protected void onSubButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+        welcomeText.setText("You click Subtraction");
+        double first = Double.parseDouble(number1.getText());
+        double second = Double.parseDouble(number2.getText());
+        double result = first - second;
+        ans.setText(String.valueOf(result));
     }
 }
