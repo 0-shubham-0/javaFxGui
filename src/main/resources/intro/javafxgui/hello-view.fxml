@@ -16,9 +16,9 @@
       <TextField fx:id="number1" layoutX="205.0" layoutY="58.0" promptText="Enter first number" />
       <TextField fx:id="ans" layoutX="205.0" layoutY="211.0" />
       <Label layoutX="65.0" layoutY="211.0" prefHeight="25.0" prefWidth="78.0" text="Ans" />
-      <Button fx:id="Add" layoutX="60.0" layoutY="167.0" mnemonicParsing="false" onAction="#onAddButtonClick" text="Addition" />
+      <Button layoutX="60.0" layoutY="167.0" mnemonicParsing="false" onAction="#onAddButtonClick" text="Addition" />
       <TextField fx:id="number2" layoutX="205.0" layoutY="107.0" promptText="Enter second number" />
-      <Button fx:id="Sub" layoutX="131.0" layoutY="167.0" mnemonicParsing="false" onAction="#onSubButtonClick" text="Subtraction" />
+      <Button layoutX="131.0" layoutY="167.0" mnemonicParsing="false" onAction="#onSubButtonClick" text="Subtraction" />
       <Button layoutX="228.0" layoutY="167.0" mnemonicParsing="false" onAction="#onMulButtonClick" text="Multiply" />
       <Button layoutX="314.0" layoutY="167.0" mnemonicParsing="false" onAction="#onDivButtonClick" text="Division" />
       <Label fx:id="welcomeText" layoutX="223.0" layoutY="245.0" />

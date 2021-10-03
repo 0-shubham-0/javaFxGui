@@ -11,10 +11,6 @@ public class HelloController {
     private TextField number1,number2,ans;
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
-    }
-    @FXML
     protected void onAddButtonClick() {
         welcomeText.setText("You clicked Addition");
         double first = Double.parseDouble(number1.getText());
